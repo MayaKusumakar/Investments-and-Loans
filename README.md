@@ -1,34 +1,38 @@
 # Investments-and-Loans
 ## Problem
-For this problem you will be figuring out if it is more beneficial to pay off your loans first before investing or if you should only make the minimum payments and invest the rest.
+
+This program figures out if it is more beneficial to pay off your loans first before investing or if you should only make the minimum payments and invest the rest.
 
 ## Specifications
-Interest rates are given as annual rates (which is how they are normally given) but we will be compounding interest at the beginning of each month (which is also how it is normally done). You will want to use the monthly rates in your calculations
-Interest is applied to both your loans and your investments at the start of the month. It should be the very first thing you do each month
-If after retirement, the user still has loans they will pay them all of from their savings.
-This could lead to them having negative savings in retirement which is fine for this problem and would show that the strategy attempted is a bad one
-Assumptions
-## Input will NOT always be valid
+  - Interest rates are given as annual rates (which is how they are normally given) but we will be compounding interest at the beginning of each month (which is also how it is normally done). The program will use the monthly rates in its calculations
+  - Interest is applied to both your loans and your investments at the start of the month.
+  - If after retirement, the user still has loans they will pay them all off from their savings.
+  - This could lead to them having negative savings in retirement which is fine for this problem and would show that the strategy attempted is a bad one
 
-If invalid input is entered you should continually ask the user for input until valid input is entered.
-While input may not always be valid it will always be of the correct type.
-Ex. If the user should enter an integer they will enter an integer only and won't enter a string or float
-Valid Input
-Loans: A real number greater than or equal to 0
-Loan Annual Interest Rate: A real number greater than or equal to 0
-5% would be entered as 0.05
-Loan Minimum Payment: A real number greater than or equal to 0
-Monthly Money: A real number greater than or equal to the minimum loan payment
-This is the money you have each month to split between loans and investing
-Current Age: An integer greater than or equal to 0
-Retirement Age: An integer greater than or equal to your current age
-Investment Annual Returns: A real number greater than or equal to 0
-5% would be entered as 0.05
+## Assumptions
+Input will NOT always be valid:
+
+  - If invalid input is entered you should continually ask the user for input until valid input is entered.
+  - While input may not always be valid it will always be of the correct type.
+    - Ex. If the user should enter an integer they will enter an integer only and won't enter a string or float
+
+
+Valid Input: 
+  - Loans: A real number greater than or equal to 0
+  - Loan Annual Interest Rate: A real number greater than or equal to 0
+      - 5% would be entered as 0.05
+  - Loan Minimum Payment: A real number greater than or equal to 0
+  - Monthly Money: A real number greater than or equal to the minimum loan payment
+      - This is the money you have each month to split between loans and investing
+  - Current Age: An integer greater than or equal to 0
+  - Retirement Age: An integer greater than or equal to your current age
+  - Investment Annual Returns: A real number greater than or equal to 0
+    - 5% would be entered as 0.05
+  
 ## Requirements
-You must use have at least 4 functions in your program
+Must have at least 4 functions in your program
 ## Restrictions
 No global variables may be used
-Loans and Investments Walk through
 
 # Examples
 
